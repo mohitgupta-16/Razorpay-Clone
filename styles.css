@@ -8,3 +8,17 @@
   .card-shadow-light{
     filter: drop-shadow(5px 5px 5px white);
   }
+
+
+  .companiesList{
+    animation:10s infinite linear moveCompany;
+  }
+
+  @keyframes moveCompany {
+    0%{
+      top:0;
+    }
+    100%{
+      top:-50%;
+    }
+  }
